@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini24</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+        <a href="#" class="nav_logo">Mini24</a>
+        
+        <ul class="nav_items">
+            <li class="nav_item">
+                <a href="#" class="nav_link">Home</a>
+                <a href="#" class="nav_link">Kreditevergleich</a>
+                <a href="#" class="nav_link">Über uns</a>
+                <a href="#" class="nav_link">Kontakt</a>
+            </li>
+        </ul>
+        
+        <button class="button" id="form-open">Anmelden</button>
+    </nav>
+    </header>
+    <!-- Home -->
+    <section class="home">
+        <div class="home_text">
+            <h1>Mini<span>24</span></h1>
+            <p>Dein smarter Kreditvergleich</p>
+        </div>
+        <div class="form_container">
+            <i class="uil uil-times form_close"></i>
+            <!-- Anmelden -->
+                
+            <div class="login">
+                <form action="#">
+                    <h2>Anmelden</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Geben Sie Ihre E-Mail ein">
+                        <i class= "uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Geben Sie Ihre Passwort ein">
+                        <i class= "uil uil-lock password"></i>
+                    </div>
+                    
+                    <div class="option">
+                        <a href="#" class="forgot_pw">Passwort vergessen?</a>
+                    </div>
+                    <button class="button"> Jetzt Anmelden</button>
+                    
+                    <div class="login_signup">
+                        Sie haben noch kein Konto? <a href="#" id="signup">Registrieren</a>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Registrieren -->
+            
+            <div class="signup">
+                <form action="#">
+                    <h2>Registrieren</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Geben Sie Ihre E-Mail ein">
+                        <i class= "uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Erstellen Sie Ihr Passwort">
+                        <i class= "uil uil-lock password"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Bestätigen Sie Ihr Passwortn">
+                        <i class= "uil uil-lock password"></i>
+                    </div>
+                    
+                    <button class="button"> Jetzt Registrieren</button>
+                    
+                    <div class="login_signup">
+                        Sie haben bereits ein Konto? <a href="#" id="login">Anmelden</a>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </section>
+        
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
