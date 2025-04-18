@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="buttons">
+        <button id="clockTab" class="active">Clock</button>
+        <button id="stopwatchTab">Stopwatch</button>
+    </div>
+
+    <div class="content">
+        <div id="clockView">
+            <div id="clock">00:00:00</div>
+        </div>
+
+        <div id="stopwatchView">
+            <div id="stopwatchDisplay" >00:00:00:00</div>
+            <div id="controls">
+                <button id= "startBtn" onclick="startTimer()">Start</button>
+                <button id= "stopBtn" onclick="stopTimer()">Stop</button>
+                <button id= "resetBtn" onclick="resetTimer()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>    
